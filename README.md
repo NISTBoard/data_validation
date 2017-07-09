@@ -1,7 +1,14 @@
 Automated FM Data Validation
 
-To run the program, you will need to install openpyxl to access data from excel sheets. Use this command:
+To run these programs, you will need to install openpyxl to access data from excel sheets. Use this command:
 sudo pip install openpyxl
+
+To run programs from the command line, use the following form for all overlay processing (replace the <> with file names):
+
+python <script_name> <master_data_sheet_file> <overlay_file>
+
+
+Note: The objectives below are for the FM_Data overlay, but the exact same methodology is employed for all other overlays
 
 Objective 1: To compare the FISCAM controls from the master FM Document (located in "FM_Data.xlsx", column C)
 to the actual data in the FM_Overlay prepared by Matrix (located in "FM_Overlay.xlsx", column C) and note any differenes (misssing/erroneous requirements).
