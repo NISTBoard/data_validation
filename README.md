@@ -7,6 +7,10 @@ To run programs from the command line, use the following form for all overlay pr
 
 python <script_name> <master_data_sheet_file> <overlay_file>
 
+For the special FM_Validation, type in:
+
+python fm_validation_script.py FM_Data.xlsx FM_Overlay.xlsx
+
 
 Note: The objectives below are for the FM_Data overlay, but the exact same methodology is employed for all other overlays
 
